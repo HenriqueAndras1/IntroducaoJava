@@ -17,16 +17,16 @@ public class ValoresFloat {
 		Scanner digite = new Scanner (System.in);
 		
 		// Entrada de Dados
-		System.out.println("Digite um numero ");
+		System.out.println("Digite um número ");
 		n1 = digite.nextFloat();
 		
-		System.out.println("Digite um numero ");
+		System.out.println("Digite um número ");
 		n2 = digite.nextFloat();
 		
-		System.out.println("Digite um numero ");
+		System.out.println("Digite um número ");
 		n3 = digite.nextFloat();
 		
-		System.out.println("Digite numero ");
+		System.out.println("Digite um número ");
 		n4 = digite.nextFloat();
 		
 		// Processamento
