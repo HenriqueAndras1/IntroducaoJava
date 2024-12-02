@@ -2,7 +2,7 @@ package introducaoJava;
 
 import java.util.Scanner;
 
-public class AbonoSalarial {
+public class MediaDeNotas {
 
 	public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class AbonoSalarial {
 		float nota2;
 		float nota3;
 		float nota4;
-		
+		float media;
 		
 		// Construindo o Digite
 		Scanner digite = new Scanner (System.in);
@@ -30,10 +30,10 @@ public class AbonoSalarial {
 		nota4 = digite.nextFloat();
 		
 		// Processamento
-		
+		media = ((nota1 + nota2 + nota3 + nota4)/4);
 		
 		// Saída de dados
-		System.out.printfl("O seu novo salário é de %.2f.", salario);
+		System.out.printf("Sua média de notas é %.1f " , media);
 		
 		
 	}
